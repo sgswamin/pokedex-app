@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 function Search() {
- const [input, setInput] = useState("");
- const [pokemon, setPokemon] = useState(null);
+  
+  const [input, setInput] = useState("");
+  const [pokemon, setPokemon] = useState(null);
 
   const fetchPokemon = async () => {
     const response = await fetch(

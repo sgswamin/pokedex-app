@@ -3,10 +3,12 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import "./index.css";
 
-import Pokedex from "./Pokedex";
-import Search from "./Search";
+import Pokedex from "./Pokedex.jsx";
+import Search from "./Search.jsx";
 
 const App = (props) => {
+  
+
   return (
     <BrowserRouter>
       <div className="App">
